@@ -45,7 +45,7 @@ namespace DatingApp.Controllers
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
         {
-            return BadRequest("Bad request");
+            return BadRequest();
         }
     }
 }
